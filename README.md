@@ -10,30 +10,29 @@ I used n-tired architecture in this application:
 - model
 - controller
 - security
-- etc
 
 ## Technologies
 - Spring - Core, MVC, Web, Security
 - Hibernate
 - MySQL
 - Tomcat
-- Logger
+- Log4j
 
 ## How to use locally
 - Download project.
 - Open it in your IDE.
-- Configure file src/main/resources/db.properties (db.driver, db.url, db.user, db.password)".
-- Install and configure Tomcat (set "/" in Deployment - taxi-service:war exploded - Application context).
-- Configure path to log file in resources/log4j2.xml.
+- Configure file ``src/main/resources/db.properties`` (``db.driver, db.url, db.user, db.password``)".
+- Install and configure Tomcat (set "/" in ``Deployment`` - ``taxi-service:war exploded`` - ``Application context``).
+- Configure path to log file in ``resources/log4j2.xml``.
 - Run Tomcat.
 - Type "/login" in your browser.
 - Use following default credential:
   
-  admin: admin@gmail.com 1234
+  ``admin: admin@gmail.com 1234``
   
-  user:  user@gmail.com 1111.
+  ``user:  user@gmail.com 1111``
   
-  You can change these credentials in util/DataInitializer.
+  You can change these credentials in ``util/DataInitializer``.
 
 ## Permissions
 ### Unauthorized user can:
