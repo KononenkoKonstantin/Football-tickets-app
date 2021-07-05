@@ -1,9 +1,9 @@
 package football.service.impl;
 
 import football.dao.GameSessionDao;
-import football.service.GameSessionService;
 import football.exception.DataProcessingException;
 import football.model.GameSession;
+import football.service.GameSessionService;
 import java.time.LocalDate;
 import java.util.List;
 import org.springframework.stereotype.Service;

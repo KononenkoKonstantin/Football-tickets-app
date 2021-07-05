@@ -2,9 +2,9 @@ package football.dao.impl;
 
 import football.dao.AbstractDao;
 import football.dao.ShoppingCartDao;
+import football.exception.DataProcessingException;
 import football.model.ShoppingCart;
 import football.model.User;
-import football.exception.DataProcessingException;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;

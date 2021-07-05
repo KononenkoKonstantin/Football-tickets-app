@@ -6,6 +6,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"football.spring.controller"})
+@ComponentScan(basePackages = {"football.controller"})
 public class WebConfig {
 }

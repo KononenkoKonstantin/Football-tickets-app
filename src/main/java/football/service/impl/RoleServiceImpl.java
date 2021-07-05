@@ -1,9 +1,9 @@
 package football.service.impl;
 
 import football.dao.RoleDao;
+import football.exception.DataProcessingException;
 import football.model.Role;
 import football.service.RoleService;
-import football.exception.DataProcessingException;
 import org.springframework.stereotype.Service;
 
 @Service

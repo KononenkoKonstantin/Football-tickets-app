@@ -1,7 +1,7 @@
 package football.dao.impl;
 
-import football.dao.GameSessionDao;
 import football.dao.AbstractDao;
+import football.dao.GameSessionDao;
 import football.exception.DataProcessingException;
 import football.model.GameSession;
 import java.time.LocalDate;

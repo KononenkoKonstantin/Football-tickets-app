@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
 @PropertySource("classpath:db.properties")
 @ComponentScan(basePackages = {
-        "football.spring"
+        "football"
 })
 public class AppConfig {
     private final Environment env;
@@ -45,7 +45,7 @@ public class AppConfig {
         properties.put("hibernate.hbm2ddl.auto", env.getProperty("hibernate.hbm2ddl.auto"));
 
         factoryBean.setHibernateProperties(properties);
-        factoryBean.setPackagesToScan("football.spring.model");
+        factoryBean.setPackagesToScan("football.model");
         return factoryBean;
     }
 

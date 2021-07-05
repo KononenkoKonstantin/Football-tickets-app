@@ -1,7 +1,7 @@
 package football.dao;
 
-import football.model.User;
 import football.model.Order;
+import football.model.User;
 import java.util.List;
 
 public interface OrderDao {

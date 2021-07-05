@@ -1,9 +1,9 @@
 package football.service.impl;
 
 import football.dao.UserDao;
+import football.exception.DataProcessingException;
 import football.model.User;
 import football.service.UserService;
-import football.exception.DataProcessingException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

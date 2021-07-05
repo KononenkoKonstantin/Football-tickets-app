@@ -1,11 +1,11 @@
 package football.service.impl;
 
+import football.model.Role;
 import football.model.User;
 import football.service.AuthenticationService;
 import football.service.RoleService;
 import football.service.ShoppingCartService;
 import football.service.UserService;
-import football.model.Role;
 import java.util.Set;
 import org.springframework.stereotype.Service;
 

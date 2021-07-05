@@ -1,8 +1,8 @@
 package football.controller;
 
-import football.service.UserService;
 import football.dto.response.UserResponseDto;
 import football.model.User;
+import football.service.UserService;
 import football.service.mapper.UserMapper;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

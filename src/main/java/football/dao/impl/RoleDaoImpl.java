@@ -1,9 +1,9 @@
 package football.dao.impl;
 
-import football.dao.RoleDao;
-import football.model.Role;
 import football.dao.AbstractDao;
+import football.dao.RoleDao;
 import football.exception.DataProcessingException;
+import football.model.Role;
 import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

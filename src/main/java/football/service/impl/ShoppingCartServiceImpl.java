@@ -1,12 +1,12 @@
 package football.service.impl;
 
+import football.dao.ShoppingCartDao;
 import football.dao.TicketDao;
+import football.model.GameSession;
 import football.model.ShoppingCart;
 import football.model.Ticket;
 import football.model.User;
 import football.service.ShoppingCartService;
-import football.dao.ShoppingCartDao;
-import football.model.GameSession;
 import org.springframework.stereotype.Service;
 
 @Service

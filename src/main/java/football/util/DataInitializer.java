@@ -1,9 +1,9 @@
 package football.util;
 
-import football.service.UserService;
 import football.model.Role;
 import football.model.User;
 import football.service.RoleService;
+import football.service.UserService;
 import java.util.Set;
 import javax.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
